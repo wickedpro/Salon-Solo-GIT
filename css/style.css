@@ -193,7 +193,7 @@ margin:35px 20px 0 0;
 
 #navigation li{
 display: inline;
-padding-right:15px;
+padding-right:30px;
 font-size: 16px;
 }
 
@@ -257,23 +257,40 @@ margin-top:0px;
 
 h2{
 margin:35px 0 0 2px;
+font-family: 'Stint Ultra Condensed', cursive;
+font-size: 30px;
+color:#4e4e4e;
 }
 
 h3{
+font-family: 'Droid Serif', serif;
 color:white;
 margin-left:17px;
+font-weight:bold;
 }
 
 p{
 margin-top:10px;
 padding:3px;
+font-family: 'Droid Serif', serif;
+font-size:13px;
+color:#4e4e4e;
 }
 
 p.white{
 color:white;
 margin:-8px 15px 15px 15px;
+font-family: 'Droid Serif', serif;
+font-size:12px;
 }
 
+h4{
+font-family: "HelveticaNeueExtended", "HelveticaNeue-Extended", "Helvetica Neue Extended", "HelveticaNeueRomanExtended", "HelveticaNeue-Roman-Extended", "Helvetica Neue Roman Extended", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+font-weight:400; 
+font-size:14px;
+text-align: right;
+display:inline;
+}
 
 
 
