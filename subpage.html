@@ -1,0 +1,120 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Salon Solo</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+<!--Flex Slider -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/libs/jquery.flexslider-min.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+         animation: "fade",
+         directionNav: false, 
+    });
+  });
+</script>
+  <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Condensed' rel='stylesheet' type='text/css'><!--h2font-->
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'><!--body-->
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+		<h1>Salon Solo</h1>
+    </header>
+    
+    <div id="main" role="main">
+		<div id="logo">
+			<ul id="navigation">
+				<li><h4>Home</h4></li>
+				<li><h4>About</h4></li>
+				<li><h4>Services</h4></li>
+				<li><h4>Store</h4></li>
+				<li><h4>Blog</h4></li>
+				<li><h4>Contact</h4></li>
+			</ul>
+		</div>
+		
+		
+	<div id="centered">
+		<div class="flexslider">
+ 			<ul class="slides">
+   			 	<li><img src="img/slide1.png"/></li>
+    		 	<li><img src="img/slide2.png"/></li>
+    		 	<li><img src="img/slide3.png"/></li>
+  		 	</ul>
+		</div>
+	
+		<h2>Welcome to Salon Solo</h2>
+		
+		<img src="img/contact_button.png" class="contactbutton"/>
+		
+		<div id="dividerline"></div>
+	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur orci eget nulla porta placerat. Cras 			commodo risus magna, tempus dapibus erat. Aenean at elit non dui malesuada vehicula. Aenean eleifend, ligula eu tempus 			ultrices, neque metus imperdiet nisi, non fringilla nunc lectus ut enim. Vestibulum ante ipsum primis in faucibus orci 			luctus et ultrices posuere cubilia Curae; Phasellus ullamcorper bibendum mollis. Phasellus interdum odio a diam 				imperdiet suscipit dapibus tellus ullamcorper. Maecenas vitae ipsum id sapien blandit cursus eu nec enim. In hac 				habitasse platea dictumst. </p>
+		
+		<div class="boxleft">
+			<h3>Services</h3>
+			<p class="white">Salon solo is a full service salon offerning many great services. Please click below to see our work 			and the list of services. </p>
+		</div>
+		
+		<div class="boxmid">
+			<h3>Services</h3>
+			
+			<p class="white">Salon solo is a full service salon offerning many great services. Please click below to see our work 			and the list of services. </p>
+		</div>
+		
+		<div class="boxright">
+			<h3>Services</h3>
+			
+			<p class="white">Salon solo is a full service salon offerning many great services. Please click below to see our work 			and the list of services. </p>
+		</div>
+		
+		<img src="img/footer.png" class="footer"/>
+	
+	</div>
+	
+   </div><!--closed container -->
+    
+ 
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+	
+
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
