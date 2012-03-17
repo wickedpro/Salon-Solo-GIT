@@ -1,10 +1,6 @@
 <?php
 /**
- * The template for displaying the footer.
- *
- * Contains the closing of the id=main div and all content
- * after.  Calls sidebar-footer.php for bottom widgets.
- *
+
  * @package WordPress
  * @subpackage Boilerplate
  * @since Boilerplate 1.0
@@ -17,9 +13,7 @@
 	 * your footer with four columns of widgets.
 	 */
 	get_sidebar( 'footer' );
-?>
-			<a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress </a>
+
 		</footer><!-- footer -->
 <?php
 	/* Always have wp_footer() just before the closing </body>

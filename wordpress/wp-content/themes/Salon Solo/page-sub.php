@@ -4,6 +4,7 @@
  * @subpackage Boilerplate
  * @since Boilerplate 1.0
  */
+Template Name: Salon Solo - Sub
 get_header(); 
 ?>
 

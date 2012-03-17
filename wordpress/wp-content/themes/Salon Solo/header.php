@@ -1,9 +1,5 @@
 <?php
 /**
- * The Header for our theme.
- *
- * Displays all of the <head> section and everything up till <div id="main">
- *
  * @package WordPress
  * @subpackage Boilerplate
  * @since Boilerplate 1.0
@@ -15,28 +11,22 @@
 <!--[if IE 9 ]><html <?php language_attributes(); ?> class="no-js ie ie9 lte9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
   <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Condensed' rel='stylesheet' type='text/css'><!--h2font-->
-  <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'><!--body-->
-  <!--Flex Slider -->
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="../js/libs/jquery.flexslider-min.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
-    $('.flexslider').flexslider({
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'><!--body--><!--Flex Slider -->
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="js/libs/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" charset="utf-8">
+     $(window).load(function() {
+     $('.flexslider').flexslider({
          animation: "fade",
          directionNav: false, 
+     });
     });
-  });
 </script>
 
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<title><?php
-			/*
-			 * Print the <title> tag based on what is being viewed.
-			 * We filter the output of wp_title() a bit -- see
-			 * boilerplate_filter_wp_title() in functions.php.
-			 */
 			wp_title( '|', true, 'right' );
 		?></title>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />

@@ -168,12 +168,13 @@ background-color: #dedede;
 }
 header{
 display: block;
-background:url(img/headerbg.png)repeat-x;
+background:url(../img/headerbg.png)repeat-x;
 height:160px;
 }
 
 #main{
 width:740px;
+height:755px;
 background-color: #fff;
 margin:0 auto;
 margin-top:-125px;
@@ -182,7 +183,7 @@ margin-top:-125px;
 #logo{
 width:740px;
 height:84px;
-background:url(img/logo.png);
+background:url(../img/logo.png);
 }
 
 #navigation{
@@ -217,7 +218,7 @@ margin-top:-31px;
 .boxleft{
 width:195px;
 height:143px;
-background-image: url(img/darkbox.png);
+background-image: url(../img/darkbox.png);
 background-repeat: no-repeat;
 float:left;
 }
@@ -225,7 +226,7 @@ float:left;
 .boxmid{
 width:195px;
 height:143px;
-background-image: url(img/darkbox.png);
+background-image: url(../img/darkbox.png);
 background-repeat: no-repeat;
 float:left;
 margin-left:17px;
@@ -234,17 +235,16 @@ margin-left:17px;
 .boxright{
 width:195px;
 height:143px;
-background-image: url(img/darkbox.png);
+background-image: url(../img/darkbox.png);
 background-repeat: no-repeat;
 float:right;
 }
 
 .footer{
-background:url(img/footer.png)no-repeat;;
+background:url(../img/footer.png)no-repeat;;
 height:45px;
 width:620px;
 margin-top:12px;
-padding-bottom:10px;
 }
 
 /* =============================================================================

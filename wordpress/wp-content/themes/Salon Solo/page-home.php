@@ -3,11 +3,23 @@
  * @package WordPress
  * @subpackage Boilerplate
  * @since Boilerplate 1.0
+ Template Name: Home Page
+
  */
+
+
 get_header(); 
 ?>
 
 <div id="centered">
+
+		<div class="flexslider">
+ 			<ul class="slides">
+   			 	<li><img src="img/slide1.png"/></li>
+    		 	<li><img src="img/slide2.png"/></li>
+    		 	<li><img src="img/slide3.png"/></li>
+  		 	</ul>
+		</div>	
 	
 		<h2><?php the_title(); ?></h2>
 		
