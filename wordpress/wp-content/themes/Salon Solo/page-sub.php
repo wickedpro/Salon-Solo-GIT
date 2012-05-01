@@ -1,10 +1,11 @@
 <?php
 /**
+Template Name: Salon Solo - Sub
  * @package WordPress
  * @subpackage Boilerplate
  * @since Boilerplate 1.0
  */
-Template Name: Salon Solo - Sub
+
 get_header(); 
 ?>
 
@@ -12,7 +13,7 @@ get_header();
 	
 		<h2><?php the_title(); ?></h2>
 		
-		<img src="img/contact_button.png" class="contactbutton"/>
+		<a href="/contact"><img src="img/contact_button.png" class="contactbutton"/></a>
 		
 		<div id="dividerline"></div>
 	

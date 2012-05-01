@@ -76,11 +76,6 @@ dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
 
-
-
-
-
-
 /* =============================================================================
    Forms
    ========================================================================== */
@@ -190,6 +185,16 @@ float:right;
 margin:35px 20px 0 0;
 }
 
+#navigation a {
+text-decoration: none;
+color:#4e4e4e
+}
+
+#navigation a:hover{
+text-decoration:none;
+color:#D218DB;
+}
+
 #navigation li{
 display: inline;
 padding-right:30px;
@@ -273,7 +278,7 @@ p{
 margin-top:10px;
 padding:3px;
 font-family: 'Droid Serif', serif;
-font-size:13px;
+font-size:15px;
 color:#4e4e4e;
 }
 
@@ -291,6 +296,11 @@ font-size:14px;
 text-align: right;
 display:inline;
 }
+
+h2.entry-title a{
+text-decoration: none;
+}
+
 
 
 

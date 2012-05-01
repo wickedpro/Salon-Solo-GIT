@@ -14,7 +14,8 @@
  */
 
 get_header(); ?>
-
+<div id="centered">
+<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<?php
 			/* Run the loop to output the posts.
 			 * If you want to overload this in a child theme then include a file
@@ -22,6 +23,9 @@ get_header(); ?>
 			 */
 			 get_template_part( 'loop', 'index' );
 			?>
+</div>
 
-<?php get_sidebar(); ?>
+	<img src="../img/footer.png" class="footer"/>	
+</div>
+
 <?php get_footer(); ?>

@@ -44,12 +44,12 @@
     <div id="main" role="main">
 		<div id="logo">
 			<ul id="navigation">
-				<li><h4>Home</h4></li>
-				<li><h4>About</h4></li>
-				<li><h4>Services</h4></li>
-				<li><h4>Store</h4></li>
-				<li><h4>Blog</h4></li>
-				<li><h4>Contact</h4></li>
+				<li><h4><a href="/">Home</a></h4></li>
+				<li><h4><a href="/about">About</a></h4></li>
+				<li><h4><a href="/services">Services</a></h4></li>
+				<li><h4><a href="/store">Store</a></h4></li>
+				<li><h4><a href="/blog">Blog</a></h4></li>
+				<li><h4><a href="/contact">Contact</a></h4></li>
 			</ul>
 		</div>
 

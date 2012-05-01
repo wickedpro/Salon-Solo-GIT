@@ -3,7 +3,7 @@
  * @package WordPress
  * @subpackage Boilerplate
  * @since Boilerplate 1.0
- Template Name: Home Page
+   Template Name: Home Page
 
  */
 
@@ -23,7 +23,7 @@ get_header();
 	
 		<h2><?php the_title(); ?></h2>
 		
-		<img src="img/contact_button.png" class="contactbutton"/>
+		<a href="/contact"><img src="img/contact_button.png" class="contactbutton"/></a>
 		
 		<div id="dividerline"></div>
 	

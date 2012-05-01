@@ -74,13 +74,6 @@ sub { bottom: -0.25em; }
 ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
-
-
-
-
-
-
-
 /* =============================================================================
    Forms
    ========================================================================== */
@@ -292,16 +285,12 @@ text-align: right;
 display:inline;
 }
 
-
-
 /* =============================================================================
   Clear Fixes
    ========================================================================== */
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
-
-
 
 /* ==|== print styles =======================================================
    Print styles.
